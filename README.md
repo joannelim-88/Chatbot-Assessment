@@ -36,9 +36,25 @@ Part 5: chatbot_unhappy.py
 
 
 # Architecture overview 
+This project follows a simple architecture for backend and data flows. 
 
+Components:
+Python language as main backend language for API handling and chatbot logic workflow. 
+Database using SQL queries inside Python functions
+API used: GEMINI / OPENAI 
+RAG integration: FAISS for information retrieval KB, SQlite3 for Text2SQL in Python
+
+Data flow:
+1. Interacts with chatbot via terminal
+2. API calls from one terminal and applications run separately
+3. Both API and system responses are returned according to the given actions by user
 
 # Key trade-offs 
+1. Database (SQL query in Python)
+SQL queries easy to handle in database, however it is run inside Python by connecting directly using queries and specific SQL functions.
+
+2. Host on Vercel
+Able to easily deploy. However this application does not have proper interface, therefore it is best to use it locally to run that has terminals. 
 
 
 # Important Note 
