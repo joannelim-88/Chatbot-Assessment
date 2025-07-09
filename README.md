@@ -35,10 +35,15 @@ Part 5: chatbot_unhappy.py
 - Connect with FAST API first, then run Part 5 separately with typing pytest and modifying the testing prompt before testing runs.
 
 
+# Architecture overview 
+
+
+# Key trade-offs 
+
+
 # Important Note 
 To run the rag integration, you need to get your own API key from OPENAI or GEMINI to continue and save the API KEY inside a .env file before continue running Part 4.
 
 Visit OPENAI: https://platform.openai.com/api-keys
 
-Visit GEMINI: https://aistudio.google.com/apikey 
-
+Visit GEMINI: https://aistudio.google.com/apikey
