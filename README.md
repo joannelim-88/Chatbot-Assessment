@@ -51,10 +51,12 @@ Data flow:
 
 # Key trade-offs 
 1. Database (SQL query in Python)
-SQL queries easy to handle in database, however it is run inside Python by connecting directly using queries and specific SQL functions.
+
+- SQL queries easy to handle in database, however it is run inside Python by connecting directly using queries and specific SQL functions.
 
 2. Host on Vercel
-Able to easily deploy. However this application does not have proper interface, therefore it is best to use it locally to run that has terminals. 
+
+- Able to easily deploy. However this application does not have proper interface, therefore it is best to use it locally to run that has terminals. 
 
 
 # Important Note 
